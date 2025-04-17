@@ -1,6 +1,5 @@
 <template>
-  <div>Base Tabs component</div>
-  <slot></slot>
+  <div>Heading Two</div>
 </template>
 
 <script setup></script>

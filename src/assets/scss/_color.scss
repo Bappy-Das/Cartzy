@@ -1,0 +1,26 @@
+//Generate all root colors
+:root {
+  @each $key, $value in $colorList {
+    --#{$key}: #{$value};
+  }
+}
+
+//Generate text and background color
+@each $key, $value in $colorList {
+  .text-#{$key} {
+    color: var(--#{$key});
+  }
+  .bg-#{$key} {
+    background-color: var(--#{$key});
+  }
+  .border-#{$key} {
+    border: 1px solid;
+    border-color: var(--#{$key});
+  }
+  .hover-text-#{$key}:hover {
+    color: var(--#{$key});
+  }
+  .hover-bg-#{$key}:hover {
+    background-color: var(--#{$key});
+  }
+}

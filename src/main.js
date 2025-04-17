@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import router from "./routers";
+import "./assets/scss/main.scss";
 import "./style.css";
 import App from "./App.vue";
 import AOS from "aos";

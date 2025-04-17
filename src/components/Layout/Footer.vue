@@ -1,152 +1,237 @@
 <template>
-  <div class="flex flex-col justify-center items-center pt-16">
+  <div class="flex flex-col justify-center items-center pt-16 bg-black">
     <div class="container pb-16">
-      <hr class="w-full text-gray-200" />
+      <hr class="w-full text-gray-800" />
     </div>
-    <div class="container grid grid-cols-4 gap-16">
-      <div>
-        <img :src="logo" alt="" srcset="" />
-        <div class="pt-5">
-          <h1 class="pb-2 text-md">
-            Address: 1234 Fashion Street, Suite 567, New York, NY 10001
-          </h1>
-          <h1 class="pb-2 text-md">
-            Email: <span class="font-semibold">info@fashionshop.com</span>
-          </h1>
-          <h1 class="pb-2 text-md">
-            Phone: <span class="font-semibold">(212) 555-1234</span>
-          </h1>
-        </div>
-        <div class="flex flex-row gap-2 items-center">
-          <div
-            class="group border border-gray-200 hover:border-blue-500 transition-all duration-400 cursor-pointer w-[35px] h-[35px] rounded-full flex items-center justify-center"
-          >
-            <font-awesome-icon
-              icon="fa-brands fa-facebook-f"
-              class="group-hover:text-blue-500 transition-all duration-400"
-            />
-          </div>
-          <div
-            class="group border border-gray-200 hover:border-blue-500 transition-all duration-400 cursor-pointer w-[35px] h-[35px] rounded-full flex items-center justify-center"
-          >
-            <font-awesome-icon
-              icon="fa-brands fa-x-twitter"
-              class="group-hover:text-blue-500 transition-all duration-400"
-            />
-          </div>
-          <div
-            class="group border border-gray-200 hover:border-blue-500 transition-all duration-400 cursor-pointer w-[35px] h-[35px] rounded-full flex items-center justify-center"
-          >
-            <font-awesome-icon
-              icon="fa-brands fa-instagram"
-              class="group-hover:text-blue-500 transition-all duration-400"
-            />
-          </div>
-          <div
-            class="group border border-gray-200 hover:border-blue-500 transition-all duration-400 cursor-pointer w-[35px] h-[35px] rounded-full flex items-center justify-center"
-          >
-            <font-awesome-icon
-              icon="fa-brands fa-tiktok"
-              class="group-hover:text-blue-500 transition-all duration-400"
-            />
-          </div>
-        </div>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">Help</h2>
-        <ul class="pt-3">
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Privacy Policy
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Returns + Exchanges
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Shipping
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Terms & Conditions
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            FAQ’s
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Compare
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            My Wishlist
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">About us</h2>
-        <ul class="pt-3">
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Our Story
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            Visit Our Store
-          </li>
-          <li
-            class="pb-2 hover:text-blue-500 transition-all duration-200 cursor-pointer"
-          >
-            About Us
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">Sign Up for Email</h2>
-        <p class="pt-3">
-          Sign up to get first dibs on new arrivals, sales, exclusive content,
-          events and more!
-        </p>
 
-        <div class="relative pt-6">
+    <div class="container gap-15 mx-auto flex justify-center items-start">
+      <div class="w-8/12 text-gray-400">
+        <div class="grid grid-cols-4 gap-16">
+          <div class="text-gray-400">
+            <h2 class="text-md uppercase text-gray-50 font-semibold">
+              OUR STORES
+            </h2>
+            <hr class="w-1/4 text-gray-50" />
+            <ul class="space-y-1 pt-3">
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  New York
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  London SF
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Cockfosters BP
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Los Angeles
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Chicago
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Las Vegas
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="text-gray-400">
+            <h2 class="text-md uppercase text-gray-50 font-semibold">
+              INFORMATION
+            </h2>
+            <hr class="w-1/4 text-gray-50" />
+            <ul class="space-y-1 pt-3">
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  About Store
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  New Collection
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Woman Dress
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Contact Us
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Latest News
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Our Sitemap
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="text-gray-400">
+            <h2 class="text-md uppercase text-gray-50 font-semibold">
+              USEFUL LINKS
+            </h2>
+            <hr class="w-1/4 text-gray-50" />
+            <ul class="space-y-1 pt-3">
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Privacy Policy
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Returns
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Terms & Conditions
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Contact Us
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="text-gray-400">
+            <h2 class="text-md uppercase text-gray-50 font-semibold">
+              FOOTER MENU
+            </h2>
+            <hr class="w-1/4 text-gray-50" />
+            <ul class="space-y-1 pt-3">
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  New Collection
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span
+                  class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                >
+                  Woman Dress
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-4/12 text-gray-400">
+        <div class="text-gray-400">
+          <h2 class="text-md uppercase text-gray-50 font-semibold">
+            About The Store
+          </h2>
+          <hr class="w-1/8 text-gray-50" />
+          <ul class="space-y-1 pt-3">
+            <li class="cursor-pointer">
+              <span
+                class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200"
+              >
+                STORE - worldwide fashion store since 1978. We sell over 1000+
+                branded products on our web-site.
+              </span>
+            </li>
+            <li class="cursor-pointer">
+              <span class="mr-2">
+                <font-awesome-icon :icon="['fas', 'location-arrow']" />
+              </span>
+              <span
+                class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200"
+              >
+                451 Wall Street, USA, New York
+              </span>
+            </li>
+            <li class="cursor-pointer">
+              <span class="mr-2">
+                <font-awesome-icon :icon="['fas', 'square-phone']" />
+              </span>
+              <span
+                class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200"
+              >
+                Phone: (064) 332-1233
+              </span>
+            </li>
+          </ul>
           <div
-            class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
-          ></div>
-          <input
-            type="search"
-            id="default-search"
-            class="block w-full p-4 ps-4 text-sm text-gray-900 border border-gray-300 rounded bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Inter Your Email...."
-            required
-          />
-          <button
-            type="submit"
-            class="text-white absolute end-1.5 bottom-1.5 bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-6 py-3"
+            class="container flex justify-start items-center gap-5 py-5 text-gray-400 text-xl"
           >
-            Subscribe
-          </button>
+            <span class="hover:text-gray-50 cursor-pointer">
+              <font-awesome-icon :icon="['fab', 'facebook']" />
+            </span>
+            <span class="hover:text-gray-50 cursor-pointer">
+              <font-awesome-icon :icon="['fab', 'instagram']" />
+            </span>
+            <span class="hover:text-gray-50 cursor-pointer">
+              <font-awesome-icon :icon="['far', 'envelope']" />
+            </span>
+            <span class="hover:text-gray-50 cursor-pointer">
+              <font-awesome-icon :icon="['fab', 'threads']" />
+            </span>
+          </div>
         </div>
       </div>
     </div>
     <div class="container pt-10">
-      <hr class="w-full text-gray-200" />
+      <hr class="w-full text-gray-800" />
     </div>
     <div class="w-full flex justify-center items-center">
       <div class="container flex flex-row justify-between items-center">
-        <div class="py-5 text-gray-500">
-          &copy; {{ currentYear }} Ecomus Store. All Rights Reserved
+        <div class="py-5 text-gray-500 text-sm">
+          &copy; {{ currentYear }} Cartzy. All Rights Reserved
         </div>
+
         <div class="flex items-center gap-3">
           <div>
             <img :src="visa" alt="" srcset="" />
@@ -170,7 +255,6 @@
 </template>
 
 <script setup>
-import logo from "@/assets/logo.svg";
 import visa from "@/assets/bank/visa.png";
 import img1 from "@/assets/bank/img-1.png";
 import img2 from "@/assets/bank/img-2.png";
