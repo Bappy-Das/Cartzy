@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-1 mb-2">
+  <div class="container mx-auto p-1 px-5 mb-2 bg-gray-5">
     <div class="flex justify-between items-center">
       <div>
         <span><font-awesome-icon :icon="['fas', 'square-phone']" /></span>

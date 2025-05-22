@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="flex justify-center items-start gap-2">
+    <div class="flex justify-center items-start gap-7 px-5">
       <div class="w-1/4 bg-[var(--secondary)] rounded-lg">
         <div class="p-4 bg-[var(--black)]">
           <h2 class="uppercase font-bold text-md text-white">
@@ -131,7 +131,7 @@
         </div>
       </div>
       <div
-        class="w-3/4 h-[700px] bg-cover bg-center bg-no-repeat flex flex-col justify-center gap-2 items-start text-white px-10"
+        class="w-3/4 h-[580px] bg-cover bg-center bg-no-repeat flex flex-col justify-center gap-2 items-start text-white px-10"
         :style="`background-image: url(${heroimg})`"
       >
         <h2 class="text-7xl uppercase font-bold mb-4">
@@ -140,7 +140,7 @@
         </h2>
         <h2 class="text-3xl uppercase font-bold mb-4">summer collection</h2>
         <h2
-          class="text-3xl capitalize font-bold mb-4 text-[var(--hover-color)]"
+          class="text-3xl capitalize satisfy-font font-bold mb-4 text-[var(--hover-color)]"
         >
           hot trending
         </h2>
