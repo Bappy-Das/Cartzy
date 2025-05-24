@@ -5,9 +5,11 @@
         <HeroSection></HeroSection>
         <PromotionalSection></PromotionalSection>
         <ProductSection></ProductSection>
+      </div>
+      <AdvertiseBanner />
+      <div class="w-7xl mx-auto">
         <CategorySection></CategorySection>
       </div>
-
       <LatestTrendSection />
     </div>
   </div>
@@ -19,6 +21,7 @@ import PromotionalSection from "@/components/Sections/PromotionalBanners/Promoti
 import ProductSection from "../components/Sections/Products/ProductSection.vue";
 import CategorySection from "../components/Sections/Categories/CategorySection.vue";
 import LatestTrendSection from "../components/Sections/Latest&TrendSection.vue";
+import AdvertiseBanner from "../components/Sections/AdvertiseBanner.vue";
 </script>
 
 <style scoped></style>
