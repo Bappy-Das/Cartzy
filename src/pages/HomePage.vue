@@ -11,6 +11,7 @@
         <CategorySection></CategorySection>
       </div>
       <LatestTrendSection />
+      <Facilities />
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@ import ProductSection from "../components/Sections/Products/ProductSection.vue";
 import CategorySection from "../components/Sections/Categories/CategorySection.vue";
 import LatestTrendSection from "../components/Sections/Latest&TrendSection.vue";
 import AdvertiseBanner from "../components/Sections/AdvertiseBanner.vue";
+import Facilities from "../components/Sections/Facilities.vue";
 </script>
 
 <style scoped></style>

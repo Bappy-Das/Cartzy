@@ -10,6 +10,7 @@ window.axios = axios;
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { MotionPlugin } from "@vueuse/motion";
 
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -18,6 +19,7 @@ library.add(fas, far, fab);
 
 const vueSetup = createApp(App);
 vueSetup.use(router);
+vueSetup.use(MotionPlugin);
 vueSetup.use(AOS.init());
 vueSetup.mount("#app");
 vueSetup.component("font-awesome-icon", FontAwesomeIcon);

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative group cursor-pointer w-[300px]">
+  <div class="relative group cursor-pointer w-[300px]" v-motion-fade-visible :duration="1000">
     <div class="">
       <img :src="img1" alt="" class="h-[350px] w-full object-cover transition-opacity duration-300 ease-in-out" />
 

@@ -1,10 +1,14 @@
 <template>
   <div class="w-full my-20 flex justify-center items-center overflow-hidden">
     <div class="relative w-full group">
-      <div class="w-full relative overflow-hidden group-hover:scale-105 transition-all duration-500">
+      <div
+        class="w-full relative overflow-hidden group-hover:scale-105 transition-all duration-500"
+        v-motion-fade-visible
+        :duration="500"
+      >
         <img :src="img1" alt="" srcset="" />
       </div>
-      <div class="absolute top-1/3 left-4">
+      <div class="absolute top-1/3 left-4" v-motion-slide-visible-left :duration="500">
         <div class="w-full h-full flex justify-start">
           <div class="h-full flex flex-col justify-center items-center gap-3 w-4/6">
             <h1 class="text-4xl text-black font-bold uppercase text-center">
@@ -20,10 +24,14 @@
       </div>
     </div>
     <div class="relative w-full group">
-      <div class="w-full relative overflow-hidden group-hover:scale-105 transition-all duration-500">
+      <div
+        class="w-full relative overflow-hidden group-hover:scale-105 transition-all duration-500"
+        v-motion-fade-visible
+        :duration="500"
+      >
         <img :src="img2" alt="" srcset="" />
       </div>
-      <div class="absolute top-1/3 right-4">
+      <div class="absolute top-1/3 right-4" v-motion-slide-visible-right :duration="500">
         <div class="w-full h-full flex justify-end">
           <div class="h-full flex flex-col justify-center items-center gap-3 w-4/6">
             <h1 class="text-4xl text-black font-bold uppercase text-center">
