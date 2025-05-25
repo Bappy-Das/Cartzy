@@ -65,6 +65,7 @@
       </div>
     </div>
     <ProductDetailsInfoSection />
+    <RelatedProduct />
   </div>
 </template>
 
@@ -73,6 +74,7 @@ import productImg from "@/assets/product/product-6.webp";
 import Breadcumb from "../components/Sections/Breadcumb.vue";
 import ProductDetailsInfoSection from "../components/Sections/Products/ProductDetailsInfoSection.vue";
 import { onMounted } from "vue";
+import RelatedProduct from "../components/Sections/Products/RelatedProduct.vue";
 
 onMounted(() => {
   window.scrollTo({ top: 0 });

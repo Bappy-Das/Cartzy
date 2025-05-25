@@ -35,7 +35,7 @@
   transform-origin: bottom center;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+  /* box-shadow: 5px 10px 20px inset rgba(255, 23, 25.2); */
   animation: loader 1.2s linear infinite;
 }
 .bar1 {
@@ -70,7 +70,7 @@
   }
   50% {
     transform: scaleY(1);
-    background: yellowgreen;
+    background: var(--highlight);
   }
   100% {
     transform: scaleY(0.1);

@@ -4,7 +4,13 @@
       <div class="flex justify-center items-start gap-10 p-10">
         <div
           @click="menuToggle('Description')"
-          class="text-xl font-medium text-[var(--gray-2)] cursor-pointer hover:text-[var(--hover-color)] duration-150 transition-colors inline-block border-b border-[var(--gray-2)] hover:border-[var(--hover-color)]"
+          :class="[
+            'text-xl font-medium cursor-pointer duration-150 transition-colors inline-block border-b',
+            toggleVelue === 'Description'
+              ? 'text-[var(--hover-color)] border-[var(--hover-color)]'
+              : 'text-[var(--gray-2)] border-[var(--gray-2)]',
+            'hover:text-[var(--hover-color)] hover:border-[var(--hover-color)]',
+          ]"
         >
           Description
         </div>
