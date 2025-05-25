@@ -11,14 +11,30 @@
     </div>
     <div class="grid grid-cols-4 justify-center items-center gap-4 my-8">
       <!--  -->
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
-      <ProductCard></ProductCard>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
+      <router-link to="/product-details/1">
+        <ProductCard></ProductCard>
+      </router-link>
     </div>
   </div>
 </template>
