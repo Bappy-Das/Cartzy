@@ -11,6 +11,12 @@ const routes = [
         component: () => import("@/pages/HomePage.vue"),
         meta: { pageTitle: "home" },
       },
+      {
+        path: "/product-details/:id",
+        name: "ProductDetails",
+        component: () => import("@/pages/ProductDetails.vue"),
+        meta: { pageTitle: "home" },
+      },
 
       // Add a catch-all route for 404 errors
       {
