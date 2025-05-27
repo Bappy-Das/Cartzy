@@ -20,28 +20,13 @@
 
       <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center mt-80">
         <div class="grid grid-cols-3 gap-10">
-          <!-- <div class="group">
-            <div class="relative w-[300px] h-[380px] overflow-hidden flex flex-col justify-center items-center cursor-pointer">
-              <div
-                class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:scale-110"
-                :style="`background-image: url(${img});`"
-              ></div>
-              <div
-                class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-black/50 to-black/50 z-0"
-              ></div>
-              <div class="relative opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
-                <h1 class="text-white font-semibold text-base uppercase text-center">gsgsgsf</h1>
-              </div>
-            </div>
-          </div> -->
-
           <div class="group shadow-2xl rounded-2xl">
             <div
               class="relative rounded-2xl shadow-2xl w-[350px] h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
             >
               <div
                 class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-                :style="`background-image: url(${img});`"
+                :style="`background-image: url(${img1});`"
               ></div>
             </div>
           </div>
@@ -51,7 +36,7 @@
             >
               <div
                 class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-                :style="`background-image: url(${img});`"
+                :style="`background-image: url(${img2});`"
               ></div>
             </div>
           </div>
@@ -61,7 +46,7 @@
             >
               <div
                 class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-                :style="`background-image: url(${img});`"
+                :style="`background-image: url(${img3});`"
               ></div>
             </div>
           </div>
@@ -83,7 +68,7 @@
           >
             <div
               class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-              :style="`background-image: url(${sari});`"
+              :style="`background-image: url(${sari1});`"
             ></div>
           </div>
         </div>
@@ -93,7 +78,7 @@
           >
             <div
               class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-              :style="`background-image: url(${sari});`"
+              :style="`background-image: url(${sari2});`"
             ></div>
           </div>
         </div>
@@ -103,7 +88,7 @@
           >
             <div
               class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-              :style="`background-image: url(${sari});`"
+              :style="`background-image: url(${sari3});`"
             ></div>
           </div>
         </div>
@@ -170,31 +155,31 @@
       <div class="grid grid-cols-3 gap-10">
         <div class="group shadow-2xl rounded-2xl">
           <div
-            class="relative rounded-2xl shadow-2xl w-[350px] h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
+            class="relative rounded-2xl shadow-2xl w-full h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
           >
             <div
               class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-              :style="`background-image: url(${img});`"
+              :style="`background-image: url(${img1});`"
             ></div>
           </div>
         </div>
         <div class="group shadow-2xl rounded-2xl">
           <div
-            class="relative rounded-2xl shadow-2xl w-[350px] h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
+            class="relative rounded-2xl shadow-2xl w-full h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
           >
             <div
               class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-              :style="`background-image: url(${img});`"
+              :style="`background-image: url(${img2});`"
             ></div>
           </div>
         </div>
         <div class="group shadow-2xl rounded-2xl">
           <div
-            class="relative rounded-2xl shadow-2xl w-[350px] h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
+            class="relative rounded-2xl shadow-2xl w-full h-[530px] overflow-hidden flex flex-col justify-center items-center cursor-pointer"
           >
             <div
               class="absolute rounded-2xl inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 ease-in-out group-hover:rounded-2xl group-hover:scale-105"
-              :style="`background-image: url(${img});`"
+              :style="`background-image: url(${img3});`"
             ></div>
           </div>
         </div>
@@ -227,10 +212,10 @@
 
             <div class="flex justify-between items-center py-5">
               <div class="flex items-center gap-5 w-2/4">
-                <img :src="img" class="w-[50px]" alt="" srcset="" />
+                <img :src="img1" class="w-[50px]" alt="" srcset="" />
                 <h1>অরিজিনাল চান্দেরি সিল্ক শাড়ি ডলার বসানো কাজ করা - DO-1051 * 1</h1>
               </div>
-              <div class="w-1/4 text-end">Quantity</div>
+              <div class="w-1/4 text-end">1</div>
               <div class="w-1/4 text-end">
                 <h1>1,250.00৳</h1>
               </div>
@@ -238,7 +223,9 @@
           </div>
           <div class="flex justify-start items-start gap-5 py-5">
             <div class="w-2/4">
-              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide py-5">Billing details</h1>
+              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide mb-5 border-b border-gray-300">
+                Billing details
+              </h1>
               <div class="mb-6">
                 <label for="fullname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                   >আপনার নাম লিখুন <span class="text-red-700">*</span></label
@@ -299,7 +286,7 @@
                     />
                     <p>Shipping</p>
                   </div>
-                  <div>৮0.00৳</div>
+                  <div>80.00৳</div>
                 </div>
                 <div class="flex justify-between items-center py-2">
                   <div class="flex items-center gap-3">
@@ -312,12 +299,12 @@
                     />
                     <p>Shipping</p>
                   </div>
-                  <div>1৩0.00৳</div>
+                  <div>130.00৳</div>
                 </div>
               </div>
             </div>
-            <div class="w-2/4">
-              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide py-5">Your order</h1>
+            <div class="w-2/4 bg-gray-7 p-5 rounded-lg">
+              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide mb-5 border-b border-gray-300">Your order</h1>
               <div class="flex justify-start items-center gap-3 py-5">
                 <div class="w-3/4">Product</div>
                 <div class="w-1/4">Subtotal</div>
@@ -325,7 +312,7 @@
               <div class="flex justify-start items-center gap-3 py-5">
                 <div class="w-3/4">
                   <div class="flex items-center gap-5">
-                    <img :src="img" class="w-[50px]" alt="" srcset="" />
+                    <img :src="img1" class="w-[50px]" alt="" srcset="" />
                     <h1>অরিজিনাল চান্দেরি সিল্ক শাড়ি ডলার বসানো কাজ করা - DO-1051 * 1</h1>
                   </div>
                 </div>
@@ -335,7 +322,7 @@
                 <div class="w-3/4">Subtotal</div>
                 <div class="w-1/4">1,250.00৳</div>
               </div>
-              <div class="flex justify-start items-center gap-3 py-5">
+              <div class="flex justify-start items-center gap-3 py-5 border-t border-gray-300">
                 <div class="w-3/4 font-bold">Total</div>
                 <div class="w-1/4 font-bold">1,400.00৳</div>
               </div>
@@ -362,8 +349,12 @@
 </template>
 
 <script setup>
-import img from "@/assets/product/Premium-Chanderi-Silk.webp";
-import sari from "@/assets/product/550-750.jpg";
+import img1 from "@/assets/saree/2146513622.jpg";
+import img2 from "@/assets/saree/1487374175.jpg";
+import img3 from "@/assets/saree/679569762.jpg";
+import sari1 from "@/assets/saree/1240392443.jpg";
+import sari2 from "@/assets/saree/8ec3754b428db79d175cae4e32b8d367.jpg_720x720q80.jpg_.webp";
+import sari3 from "@/assets/saree/9e33e99c97e91167411baeb86482e3a3.jpg_2200x2200q80.jpg_.webp";
 import bike from "@/assets/On-Demand-1.jpg";
 import { onMounted } from "vue";
 
