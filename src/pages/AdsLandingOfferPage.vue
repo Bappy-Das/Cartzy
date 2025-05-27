@@ -365,6 +365,11 @@
 import img from "@/assets/product/Premium-Chanderi-Silk.webp";
 import sari from "@/assets/product/550-750.jpg";
 import bike from "@/assets/On-Demand-1.jpg";
+import { onMounted } from "vue";
+
+onMounted(() => {
+  window.scrollTo({ top: 0 });
+});
 </script>
 
 <style lang="scss" scoped></style>

@@ -156,6 +156,15 @@
                   Woman Dress
                 </span>
               </li>
+              <router-link to="/offer-landing/1">
+                <li class="cursor-pointer">
+                  <span
+                    class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
+                  >
+                    Offer Page
+                  </span>
+                </li>
+              </router-link>
             </ul>
           </div>
         </div>
