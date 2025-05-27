@@ -13,7 +13,9 @@
         </div>
       </div>
       <div class="mx-auto mb-40">
-        <button class="bg-[var(--highlight)] p-3 font-bold text-xl text-white rounded-2xl">অর্ডার করতে চাই</button>
+        <button class="bg-[var(--highlight)] p-3 font-bold text-xl text-white rounded-2xl px-5 cursor-pointer">
+          অর্ডার করতে চাই
+        </button>
       </div>
 
       <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center mt-80">
@@ -122,7 +124,9 @@
       </div>
     </div>
     <div class="flex justify-center items-center mb-20">
-      <button class="bg-[var(--highlight)] p-3 font-bold text-xl text-white rounded-2xl">অর্ডার করতে চাই</button>
+      <button class="bg-[var(--highlight)] p-3 font-bold text-xl text-white rounded-2xl px-5 cursor-pointer">
+        অর্ডার করতে চাই
+      </button>
     </div>
     <div class="flex justify-center items-center mb-20">
       <img :src="bike" class="rounded-xl shadow-2xl rounded-2xl" alt="" srcset="" />
@@ -158,7 +162,9 @@
       </div>
     </div>
     <div class="flex justify-center items-center my-20">
-      <button class="bg-[var(--highlight)] p-3 font-bold text-xl text-white rounded-2xl">অর্ডার করতে চাই</button>
+      <button class="bg-[var(--highlight)] p-3 px-5 font-bold text-xl text-white rounded-2xl cursor-pointer">
+        অর্ডার করতে চাই
+      </button>
     </div>
     <div class="container w-7xl mx-auto mb-20">
       <div class="grid grid-cols-3 gap-10">
@@ -212,6 +218,136 @@
             <h1>Your Products</h1>
           </div>
           <hr />
+          <div class="bg-gray-7 p-4 rounded-lg mt-5">
+            <div class="flex justify-between items-center pb-3 border-b border-gray-300">
+              <div class="w-2/4">Product</div>
+              <div class="w-1/4 text-end">Quantity</div>
+              <div class="w-1/4 text-end">Price</div>
+            </div>
+
+            <div class="flex justify-between items-center py-5">
+              <div class="flex items-center gap-5 w-2/4">
+                <img :src="img" class="w-[50px]" alt="" srcset="" />
+                <h1>অরিজিনাল চান্দেরি সিল্ক শাড়ি ডলার বসানো কাজ করা - DO-1051 * 1</h1>
+              </div>
+              <div class="w-1/4 text-end">Quantity</div>
+              <div class="w-1/4 text-end">
+                <h1>1,250.00৳</h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-start items-start gap-5 py-5">
+            <div class="w-2/4">
+              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide py-5">Billing details</h1>
+              <div class="mb-6">
+                <label for="fullname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >আপনার নাম লিখুন <span class="text-red-700">*</span></label
+                >
+                <input
+                  type="text"
+                  id="fullname"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="আপনার নাম লিখুন"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label for="mobile" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >আপনার মোবাইল নাম্বারটি লিখুন <span class="text-red-700">*</span></label
+                >
+                <input
+                  type="tel"
+                  id="mobile"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="017XXXXXXXX"
+                  required
+                />
+              </div>
+
+              <div class="mb-6">
+                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >আপনার ঠিকানা লিখুন <span class="text-red-700">*</span></label
+                >
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="আপনার ঠিকানা লিখুন"
+                ></textarea>
+              </div>
+              <div class="flex items-center gap-3 mt-5">
+                <span>
+                  <input
+                    id="default-checkbox"
+                    type="checkbox"
+                    value=""
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                </span>
+                <p>I would like to receive exclusive emails with discounts and product information</p>
+              </div>
+              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide py-5">Shipping</h1>
+              <div class="border-gray-300 border mb-5 p-3 rounded-lg">
+                <div class="flex justify-between items-center py-2 border-b border-gray-300">
+                  <div class="flex items-center gap-3">
+                    <input
+                      id="default-radio-1"
+                      type="radio"
+                      value=""
+                      name="default-radio"
+                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                    />
+                    <p>Shipping</p>
+                  </div>
+                  <div>৮0.00৳</div>
+                </div>
+                <div class="flex justify-between items-center py-2">
+                  <div class="flex items-center gap-3">
+                    <input
+                      id="default-radio-1"
+                      type="radio"
+                      value=""
+                      name="default-radio"
+                      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                    />
+                    <p>Shipping</p>
+                  </div>
+                  <div>1৩0.00৳</div>
+                </div>
+              </div>
+            </div>
+            <div class="w-2/4">
+              <h1 class="text-black text-2xl font-bold leading-10 tracking-wide py-5">Your order</h1>
+              <div class="flex justify-start items-center gap-3 py-5">
+                <div class="w-3/4">Product</div>
+                <div class="w-1/4">Subtotal</div>
+              </div>
+              <div class="flex justify-start items-center gap-3 py-5">
+                <div class="w-3/4">
+                  <div class="flex items-center gap-5">
+                    <img :src="img" class="w-[50px]" alt="" srcset="" />
+                    <h1>অরিজিনাল চান্দেরি সিল্ক শাড়ি ডলার বসানো কাজ করা - DO-1051 * 1</h1>
+                  </div>
+                </div>
+                <div class="w-1/4">1,250.00৳</div>
+              </div>
+              <div class="flex justify-start items-center gap-3 py-5">
+                <div class="w-3/4">Subtotal</div>
+                <div class="w-1/4">1,250.00৳</div>
+              </div>
+              <div class="flex justify-start items-center gap-3 py-5">
+                <div class="w-3/4 font-bold">Total</div>
+                <div class="w-1/4 font-bold">1,400.00৳</div>
+              </div>
+              <div class="flex justify-center items-center my-20">
+                <button
+                  class="bg-[var(--highlight)] p-3 px-6 font-bold text-xl text-white rounded-2xl cursor-pointer hover:bg-fuchsia-950"
+                >
+                  অর্ডার করুন 1,400.00৳
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
