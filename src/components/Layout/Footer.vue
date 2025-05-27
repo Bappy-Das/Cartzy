@@ -8,60 +8,56 @@
       <div class="w-8/12 text-gray-400">
         <div class="grid grid-cols-4 gap-16">
           <div class="text-gray-400">
-            <h2 class="text-md uppercase text-gray-50 font-semibold">
-              OUR STORES
-            </h2>
+            <h2 class="text-md uppercase text-gray-50 font-semibold">OUR STORES</h2>
             <hr class="w-1/4 text-gray-50" />
             <ul class="space-y-1 pt-3">
               <li class="cursor-pointer">
                 <span
                   class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
                 >
-                  New York
+                  Dhaka
                 </span>
               </li>
               <li class="cursor-pointer">
                 <span
                   class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
                 >
-                  London SF
+                  Chittagong
                 </span>
               </li>
               <li class="cursor-pointer">
                 <span
                   class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
                 >
-                  Cockfosters BP
+                  Sylhet
                 </span>
               </li>
               <li class="cursor-pointer">
                 <span
                   class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
                 >
-                  Los Angeles
+                  Rajshahi
                 </span>
               </li>
               <li class="cursor-pointer">
                 <span
                   class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
                 >
-                  Chicago
+                  Khulna
                 </span>
               </li>
               <li class="cursor-pointer">
                 <span
                   class="inline-block text-sm border-b border-transparent hover:border-gray-300 hover:text-gray-50 transition-all duration-200"
                 >
-                  Las Vegas
+                  Barisal
                 </span>
               </li>
             </ul>
           </div>
 
           <div class="text-gray-400">
-            <h2 class="text-md uppercase text-gray-50 font-semibold">
-              INFORMATION
-            </h2>
+            <h2 class="text-md uppercase text-gray-50 font-semibold">INFORMATION</h2>
             <hr class="w-1/4 text-gray-50" />
             <ul class="space-y-1 pt-3">
               <li class="cursor-pointer">
@@ -109,9 +105,7 @@
             </ul>
           </div>
           <div class="text-gray-400">
-            <h2 class="text-md uppercase text-gray-50 font-semibold">
-              USEFUL LINKS
-            </h2>
+            <h2 class="text-md uppercase text-gray-50 font-semibold">USEFUL LINKS</h2>
             <hr class="w-1/4 text-gray-50" />
             <ul class="space-y-1 pt-3">
               <li class="cursor-pointer">
@@ -145,9 +139,7 @@
             </ul>
           </div>
           <div class="text-gray-400">
-            <h2 class="text-md uppercase text-gray-50 font-semibold">
-              FOOTER MENU
-            </h2>
+            <h2 class="text-md uppercase text-gray-50 font-semibold">FOOTER MENU</h2>
             <hr class="w-1/4 text-gray-50" />
             <ul class="space-y-1 pt-3">
               <li class="cursor-pointer">
@@ -170,43 +162,32 @@
       </div>
       <div class="w-4/12 text-gray-400">
         <div class="text-gray-400">
-          <h2 class="text-md uppercase text-gray-50 font-semibold">
-            About The Store
-          </h2>
+          <h2 class="text-md uppercase text-gray-50 font-semibold">About The Store</h2>
           <hr class="w-1/8 text-gray-50" />
           <ul class="space-y-1 pt-3">
             <li class="cursor-pointer">
-              <span
-                class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200"
-              >
-                STORE - worldwide fashion store since 1978. We sell over 1000+
-                branded products on our web-site.
+              <span class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200">
+                STORE - worldwide fashion store since 1978. We sell over 1000+ branded products on our web-site.
               </span>
             </li>
             <li class="cursor-pointer">
               <span class="mr-2">
                 <font-awesome-icon :icon="['fas', 'location-arrow']" />
               </span>
-              <span
-                class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200"
-              >
-                451 Wall Street, USA, New York
+              <span class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200">
+                Section 11, Mirpur, Dhaka, Bangladesh
               </span>
             </li>
             <li class="cursor-pointer">
               <span class="mr-2">
                 <font-awesome-icon :icon="['fas', 'square-phone']" />
               </span>
-              <span
-                class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200"
-              >
-                Phone: (064) 332-1233
+              <span class="inline-block text-sm border-b border-transparent hover:text-gray-50 transition-all duration-200">
+                Phone: +880 1000 000000
               </span>
             </li>
           </ul>
-          <div
-            class="container flex justify-start items-center gap-5 py-5 text-gray-400 text-xl"
-          >
+          <div class="container flex justify-start items-center gap-5 py-5 text-gray-400 text-xl">
             <span class="hover:text-gray-50 cursor-pointer">
               <font-awesome-icon :icon="['fab', 'facebook']" />
             </span>
@@ -228,9 +209,7 @@
     </div>
     <div class="w-full flex justify-center items-center">
       <div class="container flex flex-row justify-between items-center">
-        <div class="py-5 text-gray-500 text-sm">
-          &copy; {{ currentYear }} Cartzy. All Rights Reserved
-        </div>
+        <div class="py-5 text-gray-500 text-sm">&copy; {{ currentYear }} Cartzy. All Rights Reserved</div>
 
         <div class="flex items-center gap-3">
           <div>

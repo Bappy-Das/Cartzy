@@ -1,7 +1,7 @@
 <template>
   <div
     v-motion-fade-visible
-    :duration="2000"
+    :duration="1000"
     class="relative w-full h-[200px] overflow-hidden group flex flex-col justify-center items-center cursor-pointer"
   >
     <div

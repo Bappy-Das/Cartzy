@@ -15,7 +15,7 @@ const routes = [
         path: "/product-details/:id",
         name: "ProductDetails",
         component: () => import("@/pages/ProductDetails.vue"),
-        meta: { pageTitle: "home" },
+        meta: { pageTitle: "Product Details" },
       },
 
       // Add a catch-all route for 404 errors
@@ -24,6 +24,13 @@ const routes = [
         component: () => import("@/components/Shared/NotFound.vue"),
       },
     ],
+  },
+  // ads offer landing page
+  {
+    path: "/offer-landing/:id",
+    name: "offerLanding",
+    component: () => import("@/pages/AdsLandingOfferPage.vue"),
+    meta: { pageTitle: "Ads Landing Offer Page" },
   },
 ];
 

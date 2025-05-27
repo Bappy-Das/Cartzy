@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto my-20 px-5">
-    <div class="flex justify-center items-center" v-motion-slide-visible-bottom :duration="2000">
+    <div class="flex justify-center items-center" v-motion-fade-visible :duration="1000">
       <div class="text-center flex flex-col justify-center items-center gap-2">
         <h1 class="font-bold text-2xl uppercase">LATEST PRODUCTS</h1>
         <div class="bg-black h-[1px] w-12 mx-auto"></div>
